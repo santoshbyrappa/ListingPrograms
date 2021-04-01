@@ -46,4 +46,22 @@
 .filterBadges .badge {
   font-size: 1rem;
   cursor: pointer;
+  background-color: #8ade98;
+  color: #252525 !important;
+}
+
+.programImage div{
+  background-color: #e4dfdf;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.badgeSelected{
+  background-color: #28a745 !important
+}
+
+@media only screen and (max-width: 768px) {
+  .programDetails {
+    padding: 0px 10px;
+  }
 }

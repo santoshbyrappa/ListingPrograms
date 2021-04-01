@@ -5,7 +5,7 @@ function* fetchSpacexProgram({ payload : { launchSuccess, landSuccess, launchedY
     try {
         const spacexProgramData = yield call(fetchSpacexProgramList, { launchSuccess, landSuccess, launchedYear });
 
-        yield put(UpdateSpacexProgramList(spacexProgramData));
+        yield put(UpdateSpacexProgramList(spacexProgramData && spacexProgramData.data));
     } catch (e) {
         console.log('fetch failed')
     }
