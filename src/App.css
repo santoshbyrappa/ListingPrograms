@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.subHeader {
+  text-align: center;
+  border-bottom: 1px solid #252525;
+  margin: 6px 40px;
+}
+
+.filterBadges .badge {
+  font-size: 1rem;
+  cursor: pointer;
+}
